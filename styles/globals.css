@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom */
+
+/* LAYOUT */
+
+.jb-container {
+  @apply container mx-auto px-10 lg:px-20;
+}
+
+.cta {
+  @apply px-4 py-2 font-semibold tracking-wide rounded flex flex-row items-center transition transform hover:-translate-y-1;
+}
+
+.cta_primary {
+  @apply bg-blue-300;
+}
+
+.cta_secondary {
+  @apply bg-gray-300;
+}
+
+/* Navigation */
+.nav-item {
+  @apply font-medium tracking-wide text-gray-400 transition hover:text-black;
+}
